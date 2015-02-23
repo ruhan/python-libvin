@@ -3,8 +3,10 @@ libvin - VIN Vehicle information number checker
 (c) Copyright 2012 Maxime Haineault <max@motion-m.ca>
 
 It can help in future to identify car models:
+    http://pt.wikipedia.org/wiki/N%C3%BAmero_de_Identifica%C3%A7%C3%A3o_do_Ve%C3%ADculo
     http://en.wikibooks.org/wiki/Vehicle_Identification_Numbers_(VIN_codes)
     http://www.fleet.ford.com/resources/ford/general/pdf/maintenance/vin-decoder/2015%20VIN%20Guide_2.pdf
+    http://www.fleet.ford.com/maintenance/vin-decoder/
 """
 
 from libvin.static import *
