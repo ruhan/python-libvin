@@ -71,3 +71,12 @@ class TestDecode(object):
             v = Vin(test['VIN'])
             print "Testing: %s" % test['VIN']
             assert_equals(v.is_valid, True)
+
+    def test_decode_brazil_new_cars(self):
+        """
+        In Brazil we have this special case that need to be covered in relation
+        to the year of production.
+        """
+        v = Vin('9BWKB45U7BP112137')
+        self.assertEqual(v.year, 2011)
+
